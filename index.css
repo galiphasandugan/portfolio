@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+h1 {
+  margin: 30px 0;
+  font-size: 50px;
+  font-family: "Bungee Shade", cursive;
+}
+
+nav {
+  margin: auto;
+}
+nav a {
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+nav a:hover {
+  color: red;
+  background-color: darkgoldenrod;
+}
+#about {
+  margin-bottom: 450px;
+}
+p {
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+  margin: 100px;
+  color: burlywood;
+}
+
+h3 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+img {
+  width: 350px;
+  border-radius: 20px;
+}
+.proje img:hover {
+  opacity: 0.7;
+}
+.contact {
+  margin-bottom: 500px;
+}
+.contact a {
+  display: inline-block;
+  background-color: black;
+  color: burlywood;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 25px 25px 25px;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: red;
+}
+h4 {
+  font-size: 24px;
+}
+input {
+  display: block;
+  border: 3px solid burlywood;
+  border-radius: 10px;
+  height: 60px;
+  width: 50%;
+  margin: 15px auto;
+  /* padding: 0 100px; */
+  background: black;
+}
+.mesaj {
+  height: 150px;
+}
+button {
+  width: 50%;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 26px;
+  background-color: burlywood;
+  color: wheat;
+  font-weight: 800;
+}
+button:hover {
+  color: red;
+  height: 80px;
+}
+.top {
+  background-color: burlywood;
+  color: wheat;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 25%;
+  display: block;
+  height: 60px;
+  margin-top: 30px;
+  position: absolute;
+  right: 10px;
+}
+.top:hover {
+  height: 60px;
+  color: wheat;
+}
+button i {
+  color: burlywood;
+}
+button i:hover {
+  color: red;
+}
